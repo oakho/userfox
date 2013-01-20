@@ -9,18 +9,38 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Antoine Lagadec"]
-  s.date = "2013-01-19"
-  s.description = "TODO: longer description of your gem"
+  s.date = "2013-01-20"
+  s.description = "This gem is a Ruby Wrapper made to use the Userfox API conveniently"
   s.email = "hello@oakho.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
+  ]
+  s.files = [
+    ".document",
+    ".rspec",
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE.txt",
+    "README.md",
+    "Rakefile",
+    "lib/userfox.rb",
+    "lib/userfox/client.rb",
+    "lib/userfox/version.rb",
+    "spec/fixtures/dish_cassettes/change.yml",
+    "spec/fixtures/dish_cassettes/send.yml",
+    "spec/fixtures/dish_cassettes/track.yml",
+    "spec/fixtures/dish_cassettes/unsubscribes.yml",
+    "spec/spec_helper.rb",
+    "spec/userfox/client_spec.rb",
+    "spec/userfox_spec.rb",
+    "userfox.gemspec"
   ]
   s.homepage = "http://github.com/oakho/userfox"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.23"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "A Ruby Wrapper for the Userfox API"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
